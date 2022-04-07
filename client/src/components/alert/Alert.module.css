@@ -1,0 +1,55 @@
+.alertBox {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 38%;
+  height: 170px;
+  background-color: var(--bg1);
+  color: var(--clr_w);
+  z-index: 10;
+  box-shadow: 0 0 5px var(--clr_b);
+  transition: 1.5s;
+}
+
+.alertBoxAnimate {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 38%;
+  height: 170px;
+  border-radius: 0 0 1000px 1000px;
+  background-color: var(--bg1);
+  color: var(--clr_w);
+  z-index: 10;
+  box-shadow: 2px 2px 5px var(--clr_b);
+  transition: 1.5s;
+  animation: alert 6s ease;
+}
+
+@keyframes alert {
+  0% {
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    border-radius: 0 0 100px 100px;
+  }
+
+  20% {
+    transform: translate(-50%, -0%);
+    opacity: 1;
+    border-radius: 0 0 10px 10px;
+  }
+
+  90% {
+    transform: translate(-50%, -0%);
+    opacity: 1;
+    border-radius: 0 0 10px 10px;
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+  }
+}

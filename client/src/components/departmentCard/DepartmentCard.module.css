@@ -1,0 +1,80 @@
+.departmentCard {
+  position: relative;
+  height: 430px;
+  width: 350px;
+  border-radius: 30px;
+  color: var(--clr_w);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.4s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+.departmentCard:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.departmentCard:hover .title {
+  top: 20%;
+  font-size: 1.5rem;
+}
+
+.departmentCard:hover .description {
+  opacity: 1;
+  top: 45%;
+  transition-delay: 0.3s;
+}
+
+.departmentCard:hover .arrow {
+  opacity: 1;
+  top: 60%;
+  transition-delay: 0.6s;
+}
+
+.backImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.contentContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.title {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.description {
+  position: relative;
+  top: 70%;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.arrow {
+  position: relative;
+  top: 70%;
+  opacity: 0;
+  margin-top: auto;
+  font-size: 1.5rem;
+  transition: 0.4s;
+}

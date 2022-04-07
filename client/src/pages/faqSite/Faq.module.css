@@ -1,0 +1,21 @@
+.allContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-image: radial-gradient(var(--bg2), var(--bg1));
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.allContent {
+  width: 100%;
+  height: auto;
+  padding-top: 45px;
+  color: var(--clr_w);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,109 @@
+.all {
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(var(--bg2), var(--bg1));
+  position: relative;
+  top: 0;
+  left: 0;
+  color: var(--clr_w);
+}
+
+.aboutDepartment {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employeeTitle {
+  margin-top: 200px;
+  font-size: 2.6rem;
+  margin-right: auto;
+}
+
+.aboutDepartmentTitle {
+  font-size: 2.6rem;
+  margin-right: auto;
+}
+
+.aboutDepartmentInfo {
+  margin-top: 50px;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.aboutDepartmentInfo span {
+  font-weight: bold;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.cardContainer {
+  margin: 20px;
+  width: 400px;
+  height: 380px;
+  background-color: var(--bg2);
+  color: var(--clr_w);
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardContainer > p,
+h1 {
+  margin-left: 30px;
+}
+
+.profileImageBox {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 40%;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImageBox img {
+  width: auto;
+  height: 100%;
+}
+
+.nameTag {
+}
+
+.departmentTag {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.contactTagSpan {
+  position: relative;
+}
+
+.contactTagSpan::after {
+  content: '';
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 1111px) {
+  .aboutContainer {
+    justify-content: center;
+  }
+}

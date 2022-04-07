@@ -1,0 +1,43 @@
+.aboutContainer {
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(var(--bg2), var(--bg1));
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.aboutInfo {
+  padding-top: 45px;
+  width: 100%;
+  height: auto;
+  color: var(--clr_w);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutInfo p {
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.aboutInfo span {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.aboutContent {
+  width: 100%;
+  height: auto;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+  grid-gap: 30px 130px;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 45px;
+}
