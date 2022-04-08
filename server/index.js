@@ -17,8 +17,8 @@ app.get('/getAllEmployees', (req, res) => {
   const reqDepartment = req.query.department;
   let department = reqDepartment.toLowerCase();
 
-  if (reqDepartment === 'User suport') {
-    department = 'userSuport';
+  if (reqDepartment === 'User support') {
+    department = 'userSupport';
   } else if (reqDepartment === 'Hr and administration') {
     department = 'hrAndAdministration';
   }

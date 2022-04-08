@@ -43,7 +43,7 @@ function Contact() {
                   <br />
 
                   <Link to="/" className={classes.ContactNumberLink}>
-                    Call suport
+                    Call support
                   </Link>
                 </div>
               </div>
@@ -57,7 +57,7 @@ function Contact() {
                   <p className={classes.chatInfo}>Chat with our suport team</p>
 
                   <button className={classes.contactChatBtn}>
-                    Chat with suport
+                    Chat with support
                   </button>
                 </div>
               </div>

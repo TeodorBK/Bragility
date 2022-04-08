@@ -39,8 +39,8 @@ function About() {
           image={utviklingImage}
         />
         <DepartmentCard
-          title={'User suport'}
-          description={'User suport'}
+          title={'User support'}
+          description={'User support'}
           image={suportImage}
         />
         <DepartmentCard

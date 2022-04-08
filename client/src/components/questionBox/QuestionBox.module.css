@@ -1,5 +1,5 @@
 .questionBox {
-  margin: 30px 0;
+  margin-top: 30px;
   width: 90%;
   min-height: 80px;
   background-color: var(--bg1);
@@ -21,7 +21,7 @@
 }
 
 .questionBoxOpen {
-  margin: 20px 0;
+  margin-top: 30px;
   width: 90%;
   min-height: 300px;
   background-color: var(--bg1);
@@ -122,7 +122,7 @@
 }
 
 @media (max-width: 425px) {
-  .questionBox {
-    height: 400px;
+  .questionBoxOpen {
+    min-height: 400px;
   }
 }
